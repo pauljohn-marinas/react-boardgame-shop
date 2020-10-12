@@ -1,0 +1,69 @@
+.search-input {
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: flex-start;
+}
+.input-container {
+  flex: 0.9;
+  padding: 8px 20px;
+  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
+  box-shadow: inset 5px 5px 9px #b3b7bd, inset -5px -5px 9px #ffffff;
+  border-radius: 50px;
+  margin-right: 150px;
+}
+
+.input-container .MuiSvgIcon-root {
+  color: var(--light-color);
+}
+
+.input-container input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  width: 100%;
+  color: var(--light-color);
+}
+
+.input-container input::placeholder {
+  color: var(--light-color);
+}
+.select-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background: var(--main-bg-color);
+  box-shadow: 5px 5px 9px rgb(157, 160, 165), -5px -5px 9px #ffffff;
+  padding: 10px 20px;
+  flex: 0.1;
+  width: auto;
+}
+.select-container select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: var(--light-color);
+  cursor: pointer;
+  margin-right: 10px;
+}
+.select-container select.first-child {
+  width: 100px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+.select-container .MuiSvgIcon-root {
+  color: var(--light-color);
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
